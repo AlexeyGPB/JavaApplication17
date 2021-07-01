@@ -10,7 +10,7 @@ public class Main {
             public void event(String fName, int kind) {
                 switch (kind) {
                     case FSMonitor.CREATE:
-                        System.out.println("File created: " + fName);
+                        System.out.println("Some file's created: " + fName);
                         break;
                     case FSMonitor.REMOVE:
                         System.out.println("Some file's removed: " + fName);
