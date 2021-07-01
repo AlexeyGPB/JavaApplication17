@@ -16,7 +16,7 @@ public class Main {
                         System.out.println("Some file's removed: " + fName);
                         break;
                     default:
-                        System.out.println("Unknown event!");
+                        System.out.println("Unknown event!!!!");
                 }
             }
         });
