@@ -13,7 +13,7 @@ public class Main {
                         System.out.println("File created: " + fName);
                         break;
                     case FSMonitor.REMOVE:
-                        System.out.println("File removed: " + fName);
+                        System.out.println("Some file's removed: " + fName);
                         break;
                     default:
                         System.out.println("Unknown event!");
